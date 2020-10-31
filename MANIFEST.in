@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include metabase_ngse *.css
+recursive-include metabase_ngse *.csv
+recursive-include metabase_ngse *.html
+recursive-include metabase_ngse *.ico
+recursive-include metabase_ngse *.js
+recursive-include metabase_ngse *.json
+recursive-include metabase_ngse *.md
+recursive-include metabase_ngse *.png
+recursive-include metabase_ngse *.py
+recursive-include metabase_ngse *.svg
+recursive-include metabase_ngse *.txt
+recursive-exclude metabase_ngse *.pyc
